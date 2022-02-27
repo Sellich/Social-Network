@@ -1,0 +1,34 @@
+.app_wrapper{
+   margin: 0 auto;
+   display: grid;
+   grid-template-areas: 
+   "h h"
+   "n c";
+   grid-template-columns: 2fr 10fr;
+   grid-template-rows: 60px 1fr;
+   min-width: 100vh;
+   gap: 40px 25px;
+   background-color: #f2f3f4;
+   min-height: 100vh;
+   padding: 0px 100px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.app_wrapper__content{
+  grid-area: c;
+  background: #f2f3f4;
+
+  border-radius: 10px;
+}
+.app_wrapper__header{
+   grid-area: h;
+   background: #FFFFFF;
+   height: 80px;
+   width: 100%;
+   border-radius: 10px;
+}
+.app_wrapper__navbar{
+   grid-area: n;
+   background: #FFFFFF;
+   border-radius: 10px;
+}

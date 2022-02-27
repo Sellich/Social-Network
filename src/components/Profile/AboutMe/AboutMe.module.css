@@ -1,0 +1,31 @@
+.fullName{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 25px;
+}
+
+.status{
+
+   display: flex;
+   justify-content: center;
+}
+
+.headerAboutMe{
+
+   display: flex;
+   justify-content: center;
+   font-size: 22px;
+}
+.lookingForAJobImg{
+   height: 20px;
+   width: 20px;
+}
+.aboutMe{
+
+   padding: 10px;
+}
+.contacts{
+   padding: 0 0 0 50px;
+}

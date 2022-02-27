@@ -1,0 +1,21 @@
+li{
+   list-style-type: none;
+   text-align: center;
+}
+ul{
+   padding: 0;
+}
+
+.link{
+   font-size: 20px;
+   text-decoration: none;
+   text-align: center;
+   padding: 0;
+}
+
+.link:visited{
+   color: black
+}
+.link:active{
+   font-weight: bold;
+}

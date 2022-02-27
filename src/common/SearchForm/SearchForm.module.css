@@ -1,0 +1,31 @@
+.input{
+   border-radius: 10px 0 0 10px;
+   height: 40px;
+   width: 200px;
+   border: none;
+   outline: none;
+   font-size: 18px;
+}
+.loupe{
+   height: 30px;
+   width: 30px;
+   background-color: white;
+   padding: 0 5px 0 0 ;
+}
+.loupeContainer{
+   background-color: white;
+   height: 40px;
+   width: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   border-radius: 0 10px 10px 0;
+
+}
+.form{
+   display: flex;
+   align-items: center;
+   border: 1px solid black;
+   border-radius: 10px;
+   height: 40px;
+}
