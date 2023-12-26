@@ -1,38 +1,34 @@
 
-import { authMeThunk } from "./auth_reducer"
+import { authMeThunk } from "./auth_reducer";
 
-const INITIALIZED_SUCCES = "social-network/app/INITIALIZED_SUCCES"
-
+const INITIALIZED_SUCCES = "social-network/app/INITIALIZED_SUCCES";
 
 let initialState = {
-   initialized: false,
-}
+  initialized: false,
+};
 
 const appReducer = (state = initialState, action) => {
-   switch (action.type) {
-      case INITIALIZED_SUCCES: {
-         return {
-            ...state,
-            initialized: true
-         }
+  switch (action.type) {
+    case INITIALIZED_SUCCES: {
+      return {
+        ...state,
+        initialized: true
       }
-      default: return state
-   }
-}
+    }
+    default: return state
+  }
+};
 
 
 const initializedSucces = () => ({
-   type: INITIALIZED_SUCCES
-})
+  type: INITIALIZED_SUCCES
+});
 
 
 export let initialazedApp = () => (dispatch) => {
+  let promise = dispatch(authMeThunk());
 
-   let promise = dispatch(authMeThunk())
-
-   console.log(promise)
-
-   promise.then(() => { dispatch(initializedSucces()) })
+  promise.then(() => { dispatch(initializedSucces()) });
 }
 
-export default appReducer
+export default appReducer;

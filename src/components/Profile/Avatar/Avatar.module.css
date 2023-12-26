@@ -1,30 +1,36 @@
 .photo {
-   width:  300px;
-   height: 300px;
-   padding: 20px;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
 }
-.avatar{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.formContainer{
-   display: flex;
-   flex-direction: column;
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
 }
-.uploadPhoto{
-   opacity: 0;
-   position: absolute;
-   z-index: -1;
+
+.uploadPhoto {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
 }
-label{
-   cursor: pointer
+
+label {
+  cursor: pointer
 }
-.avatarContainer{
-   border: 1px black solid;
-   border-radius: 10px;
-   margin: 5px;
+
+.avatarContainer {
+  border: 1px black solid;
+  border-radius: 10px;
+  margin: 5px;
 }
-.aboutMe{
-   padding: 20px;
+
+.aboutMe {
+  padding: 20px;
 }

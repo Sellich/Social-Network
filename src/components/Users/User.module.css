@@ -1,26 +1,28 @@
-.avatar{
-   width: 100px;
-   height: 100px;
+.avatar {
+  width: 100px;
+  height: 100px;
 }
-.user_wrapper{
-   background-color: white;
-   margin: 10px 0 0 0;
-   display: flex;
+
+.user_wrapper {
+  background-color: white;
+  margin: 10px 0 0 0;
+  display: flex;
 
 }
 
-.userInfo{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   margin: 50px;
+.userInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
 }
 
-.folow_container{
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.folow_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.btn{
-   background-color: white;
+
+.btn {
+  background-color: white;
 }

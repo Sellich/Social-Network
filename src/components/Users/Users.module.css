@@ -1,10 +1,4 @@
-.searchForm{
-
-}
-.paginator{
-
-}
-.searchArea{
-   display: flex;
-   justify-content: space-between;
+.searchArea {
+  display: flex;
+  justify-content: space-between;
 }

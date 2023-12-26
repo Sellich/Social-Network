@@ -1,20 +1,21 @@
-.avatar{
+.avatar {
+  height: 30px;
+  width: 30px;
+  align-items: start;
+  border-radius: 50%;
+}
 
-   height: 30px;
-   width: 30px;
-   align-items: start;
-   border-radius: 50%;
+.avatarContainer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
 }
-.avatarContainer{
-   display: flex;
-align-items: start;
-justify-content: center;
 
+.fullNameConainer {
+  width: 50px
 }
-.fullNameConainer{
-   width:50px
-}
-.friend{
-   padding: 5px 10px 5px 5px;
-   width: 50px;
+
+.friend {
+  padding: 5px 10px 5px 5px;
+  width: 50px;
 }

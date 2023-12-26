@@ -4,19 +4,17 @@ import { logInThunk } from "../../redux/auth_reducer";
 import Login from "./Login";
 
 class LoginContainer extends React.Component {
-
-   render() {
-      return (
-         <Login loginThunk={this.props.logInThunk} isAuth={this.props.isAuth} />
-      )
-   }
-}
+  render() {
+    return (
+      <Login loginThunk={this.props.logInThunk} isAuth={this.props.isAuth} />
+    )
+  }
+};
 
 const mapStateToProps = (state) => {
+  return {
+    isAuth: state.auth.isAuth
+  }
+};
 
-   return {
-      isAuth: state.auth.isAuth
-   }
-}
-
-export default connect(mapStateToProps, { logInThunk })(LoginContainer)
+export default connect(mapStateToProps, { logInThunk })(LoginContainer);

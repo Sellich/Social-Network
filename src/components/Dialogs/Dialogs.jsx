@@ -1,20 +1,18 @@
-
 import DialogsPages from "./DialogsPages/DialogsPages";
 
-
 const Dialogs = (props) => {
-   let dialogsPages = props.dialogsPages.map((page) => <DialogsPages key={page.id}
-      fullName={page.fullName}
-      lastMessage={page.lastMessage} />)
+  let dialogsPages = props.dialogsPages.map((page) => <DialogsPages key={page.id}
+    fullName={page.fullName}
+    lastMessage={page.lastMessage} />
+  );
 
-   return (
+  return (
+    <div>
       <div>
-         <div>
-            {dialogsPages}
-         </div>
-
+        {dialogsPages}
       </div>
-   )
+    </div>
+  )
 }
 
 export default Dialogs;

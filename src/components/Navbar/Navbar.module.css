@@ -1,21 +1,23 @@
-li{
-   list-style-type: none;
-   text-align: center;
-}
-ul{
-   padding: 0;
+li {
+  list-style-type: none;
+  text-align: center;
 }
 
-.link{
-   font-size: 20px;
-   text-decoration: none;
-   text-align: center;
-   padding: 0;
+ul {
+  padding: 0;
 }
 
-.link:visited{
-   color: black
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
 }
-.link:active{
-   font-weight: bold;
+
+.link:visited {
+  color: black
+}
+
+.link:active {
+  font-weight: bold;
 }

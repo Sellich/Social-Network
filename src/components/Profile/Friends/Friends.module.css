@@ -1,16 +1,14 @@
-.friendsInfo{
-   width: 250px;
-   height: 200px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
- 
+.friendsInfo {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.friendsContainer{
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-
+.friendsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
